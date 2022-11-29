@@ -8,12 +8,12 @@ var info = chalk.bgBlueBright.black;
 var score = 0;
 let highScores = [
   {
-    name: "Devangi",
-    score: "5",
+    name: "Mahek",
+    score: "7",
   },
   {
     name: "Ajay",
-    score: "3",
+    score: "8",
   },
 ];
 var user = readlineSync.question("What is your name? ");
@@ -31,22 +31,43 @@ function play(question, answer) {
 
 var questions = [
   {
-    question: "where do I live?  \n",
+    question: "What is i like to eat?  \n",
+    answer: "chinese"
+  },
+  {
+    question: "where am I born?  \n",
     answer: "porbandar"
+  },
+  {
+    question: "where I completed my bechlor of engineering? \n",
+    answer: "bhavnagar"
+  },
+  {
+    question: "How many family members in my family? \n",
+    answer: "five"
   },
   {
     question: "what is my favourite color?  \n",
     answer: "pink"
   },
   {
+    question: "Currently where am i living? \n",
+    answer: "gandhinagar"
+  },
+  {
     question: "My favourite outdoor game?  \n",
-    answer: "chess"
-  }, {
+    answer: "cricket"
+  }, 
+    {
+    question: "My Born month name?  \n",
+    answer: "january"
+  }, 
+  {
     question: "what is my favourite movie? \n",
     answer: "kabir singh"
   },
   {
-    question: "What kind of clothes do I not like to wear? \n",
+    question: "What kind of clothes do I like to wear? \n",
     answer: "kurties"
   }
 ]
